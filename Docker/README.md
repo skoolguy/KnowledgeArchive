@@ -25,8 +25,8 @@ bin   dev   etc   home  proc  root  sys   tmp   usr   var
 / # uptime
  05:45:21 up  5:58,  0 users,  load average: 0.00, 0.01, 0.04
 ```   
-    opens up the shell inside the busybox and we can interact with it
-    -it : interactive
+opens up the shell inside the busybox and we can interact with it
+-it : interactive
 
 `$ docker rm 305297d7a235 ff0a5c3750b9`
     remove containers
@@ -111,3 +111,5 @@ Get the whole thing running by:
 `$ git clone https://github.com/user/FoodTrucks`
 `$ cd FoodTrucks`
 `$ ./setup-docker.sh`
+
+[# Docker Compose](Docker Compose/)
