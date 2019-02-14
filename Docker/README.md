@@ -111,4 +111,4 @@ Get the whole thing running by:
 `$ cd FoodTrucks`
 `$ ./setup-docker.sh`
 
-## [Docker Compose](Docker/Docker Compose/)
+## [Docker Compose](Docker%20Compose/)
