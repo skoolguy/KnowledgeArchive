@@ -1,30 +1,30 @@
-This file contains the most common commands used in Docker.
+##This file contains the most common commands used in Docker.
 
-$ docker pull busybox
+`$ docker pull busybox`
     pulls a container called 'busybox' 
 
-$ docker images
+`$ docker images`
     shows all the images
 
-$ docker run busybox
+`$ docker run busybox
     run the docker container
 
-$ docker run busybox echo "hello from busybox"
+`$ docker run busybox echo "hello from busybox"
     runs a command as well inside the container
 
-$ docker ps
+`$ docker ps
     shows all containers that are currently running
 
-$ docker ps -a
+`$ docker ps -a
     shows all containers
 
-$ docker run -it busybox sh
+`$ docker run -it busybox sh
 / # ls
 bin   dev   etc   home  proc  root  sys   tmp   usr   var
 / # uptime
  05:45:21 up  5:58,  0 users,  load average: 0.00, 0.01, 0.04
     
-    runs more than one command at a time
+    opens up the shell inside the busybox and we can interact with it
     -it : interactive
 
 $ docker rm 305297d7a235 ff0a5c3750b9
