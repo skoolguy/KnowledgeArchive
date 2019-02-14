@@ -93,8 +93,7 @@ opens up the shell inside the busybox and we can interact with it
 
 
 ____________________________________________________________________________________________________________________________________________
-DOCKER NETWORK
---------------
+## DOCKER NETWORK
 
 `$ docker network ls`
     lists all networks created by docker
@@ -112,4 +111,4 @@ Get the whole thing running by:
 `$ cd FoodTrucks`
 `$ ./setup-docker.sh`
 
-# [Docker Compose](Docker Compose/)
+## [Docker Compose](Docker/Docker Compose/)
